@@ -120,7 +120,8 @@ h1, p {
 }
 
 footer {
-    /* max-height: 500px; /1* must match .content[margin-bottom] *1/ */
+    position: fixed;
+    bottom: 0px;
 }
 
 footer img {
@@ -129,7 +130,6 @@ footer img {
 
 .content {
     min-height: 100%;
-    /* margin-bottom: -500px; /1* must match footer[height] *1/ */
 }
 
 html {
